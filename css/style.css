@@ -1,22 +1,75 @@
-.col_1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 50px;
-	width: 100px;
-	height: 100px;
-	background: lightgreen;
-	position: relative;
-	border: 1px solid black;
-	border-radius: 45px;
-}
-
-button {
-	width: 120px;
-	height: 40px;
-	margin-top: 150px;
-	margin-left: 50px;
+body {
+	margin: 0px;
+	padding: 0px;
 	background: lightblue;
+}
+.parent_1 {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 20px auto;
+}
+.string-table {
+	background: yellow;
+}
+.cell {
 	border: 1px solid black;
-	box-shadow: 0 0 1px 1px;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	color: black;
+	font-size: 20px;
+}
+.cell:hover {
+	box-shadow: 0px 0px 1px 1px red;
+	cursor: pointer;
+}
+.cell-3:hover {
+	box-shadow: 0px 0px 1px 1px red;
+	cursor: pointer;
+}
+.koor {
+	text-align: center;
+}
+.cell-2 {
+	border: 1px solid black;
+	background: gray;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	color: black;
+	font-size: 20px;
+}
+.cell-3 {
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	color: black;
+	font-size: 30px;
+	background: red;
+}
+.cell-4 {
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	color: black;
+	font-size: 30px;
+	background: #00FF00;
+}
+.click {
+	border: 1px solid black;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	background: lightgreen;
+	color: black;
+}
+.click:hover {
+	font-size: 14px;
+	cursor: pointer;
+	background: #32CD32;
+}
+.main-click {
+	text-align: center;
+	padding-top: 30px; 
 }
